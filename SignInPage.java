@@ -14,7 +14,7 @@ class SignInPage extends JFrame{
 	private void Userentry(String mobile, String passwd) {
 	    String jdbcUrl = "jdbc:mysql://localhost:3306/Railway";
 	    String dbUsername = "root";
-	    String dbPassword = "@nshD8218555";
+	    String dbPassword = "@Enter your password";
 
 	    try {
 	        Class.forName("com.mysql.cj.jdbc.Driver");
@@ -78,7 +78,7 @@ class SignInPage extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 String jdbcUrl = "jdbc:mysql://localhost:3306/Railway";
                 String dbUsername = "root";
-                String dbPassword = "@nshD8218555";
+                String dbPassword = "@Enter your password";
 
                 try {
                     Class.forName("com.mysql.cj.jdbc.Driver");
