@@ -19,7 +19,7 @@ class SeatPage extends JFrame {
 		
 		String jdbcUrl = "jdbc:mysql://localhost:3306/Railway";
         String dbUsername = "root";
-        String dbPassword = "@nshD8218555";
+        String dbPassword = "Enter your password";
         
         try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
@@ -49,7 +49,7 @@ class SeatPage extends JFrame {
 	int trainnum() {
 	    String jdbcUrl = "jdbc:mysql://localhost:3306/Railway";
 	    String dbUsername = "root";
-	    String dbPassword = "@nshD8218555";
+	    String dbPassword = "Enter your password";
 	    int trainnum = 0;
 
 	    try {
@@ -80,7 +80,7 @@ class SeatPage extends JFrame {
 	int UserID() {
 	    String jdbcUrl = "jdbc:mysql://localhost:3306/Railway";
 	    String dbUsername = "root";
-	    String dbPassword = "@nshD8218555";
+	    String dbPassword = "Enter your password";
 	    int UserID = 0;
 
 	    try {
@@ -110,7 +110,7 @@ class SeatPage extends JFrame {
 	String UserName() {
 	    String jdbcUrl = "jdbc:mysql://localhost:3306/Railway";
 	    String dbUsername = "root";
-	    String dbPassword = "@nshD8218555";
+	    String dbPassword = "Enter your password";
 	    String UserName = "";
 
 	    try {
@@ -158,7 +158,7 @@ class SeatPage extends JFrame {
 				//insert into booked_seats (seat_no,train_no,UserID,User_name,Status)values(4,04152,102,'Rakesh Dabral','booked');
 		String jdbcUrl = "jdbc:mysql://localhost:3306/Railway";
 	    String dbUsername = "root";
-	    String dbPassword = "@nshD8218555";
+	    String dbPassword = "Enter your password";
 				
 		        
 
@@ -200,7 +200,7 @@ class SeatPage extends JFrame {
 
         String jdbcUrl = "jdbc:mysql://localhost:3306/Railway";
         String dbUsername = "root";
-        String dbPassword = "@nshD8218555";
+        String dbPassword = "Enter your password";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
