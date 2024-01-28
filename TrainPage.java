@@ -19,7 +19,7 @@ class TrainPage extends JFrame {
         // Fetch data from railway
         String jdbcUrl = "jdbc:mysql://localhost:3306/Railway";
         String dbUsername = "root";
-        String dbPassword = "@nshD8218555";
+        String dbPassword = "Enter your password";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -149,7 +149,7 @@ class TrainPage extends JFrame {
     	
         String jdbcUrl = "jdbc:mysql://localhost:3306/Railway";
         String dbUsername = "root";
-        String dbPassword = "@nshD8218555";
+        String dbPassword = "Enter your password";
         int Trainno = 0;
 
         try {
@@ -183,7 +183,7 @@ class TrainPage extends JFrame {
     private void numentry(int trainnum) {
         String jdbcUrl = "jdbc:mysql://localhost:3306/Railway";
         String dbUsername = "root";
-        String dbPassword = "@nshD8218555";
+        String dbPassword = "Enter your password";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
