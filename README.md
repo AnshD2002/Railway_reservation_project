@@ -8,7 +8,7 @@ A railway reservation application implemented in Java with Swing for the GUI, JD
 
 - **User Authentication:** Login and registration for users.
 - **Ticket Booking:** Allows users to search trains, book tickets, and manage bookings.
-- **Admin Panel:** Admin login for managing trains, stations, and user bookings.
+- **Admin Panel:** Admin login for managing user bookings.
 - **Database Integration:** Uses JDBC to connect to an SQL database for storing user and booking information.
 - **GUI with Swing:** Provides a user-friendly interface for interacting with the application.
 
